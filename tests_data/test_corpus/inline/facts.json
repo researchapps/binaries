@@ -1,0 +1,55 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/inline/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_Z5startd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "d",
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm0",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooi",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        }
+    }
+}

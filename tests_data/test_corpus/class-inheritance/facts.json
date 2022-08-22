@@ -1,0 +1,163 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/class-inheritance/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_Z4func1AP1B1C1D",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": {
+                            "name": "A",
+                            "size": 4,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "x",
+                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    },
+                    {
+                        "name": "b",
+                        "type": "08573c756bc7c57d0d0c970cc608f590",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "c",
+                        "type": {
+                            "name": "C",
+                            "size": 4,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "z",
+                                    "type": "9184556c0910b05214ac53bae6daf100",
+                                    "offset": 0,
+                                    "location": "%xmm0",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    },
+                    {
+                        "name": "d",
+                        "type": "9f73315ba8e9e2c98c2fcb7032959ce0",
+                        "location": "%rdx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "354d28be1670bbd7b2e17ad7398e35ec": {
+            "name": "A",
+            "size": 4,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "x",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                }
+            ]
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "11d5edead3db0c5ecedc57500c96789f": {
+            "name": "B",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "y",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 0
+                }
+            ]
+        },
+        "08573c756bc7c57d0d0c970cc608f590": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "11d5edead3db0c5ecedc57500c96789f"
+            },
+            "name": "b"
+        },
+        "9184556c0910b05214ac53bae6daf100": {
+            "type": "float",
+            "size": 4,
+            "class": "Float"
+        },
+        "feb2f2fbae1354cf7df2f08ad97dfa67": {
+            "name": "C",
+            "size": 4,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "z",
+                    "type": "9184556c0910b05214ac53bae6daf100",
+                    "offset": 0
+                }
+            ]
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "9f73315ba8e9e2c98c2fcb7032959ce0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "name": "D",
+                "size": 24,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "inherited",
+                        "type": "354d28be1670bbd7b2e17ad7398e35ec",
+                        "offset": 0
+                    },
+                    {
+                        "name": "inherited",
+                        "type": "11d5edead3db0c5ecedc57500c96789f",
+                        "offset": 8
+                    },
+                    {
+                        "name": "inherited",
+                        "type": "feb2f2fbae1354cf7df2f08ad97dfa67",
+                        "offset": 16
+                    },
+                    {
+                        "name": "d",
+                        "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                        "offset": 20
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-array-structures/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooiPP7Structy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "one",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "arrayOfStructures",
+                        "type": "6ab633a3650272566efce1c83032125d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        },
+        "c7cb2b29b6a65fa43d7b991d5c3a8143": {
+            "name": "StructyChild",
+            "size": 4,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "one",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                }
+            ]
+        },
+        "c4e2afc8fd63188b0f52fa5240eb12e0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "c7cb2b29b6a65fa43d7b991d5c3a8143"
+            }
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "e8ba69790811b9092d4a298fa74a874a": {
+            "class": "Array",
+            "name": "child",
+            "size": 40,
+            "counts": [
+                5
+            ],
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "c7cb2b29b6a65fa43d7b991d5c3a8143"
+                }
+            }
+        },
+        "6e7e9583ed3041d40426d50d3f34c3a4": {
+            "name": "Structy",
+            "size": 40,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "child",
+                    "type": "e8ba69790811b9092d4a298fa74a874a",
+                    "offset": 0
+                }
+            ]
+        },
+        "729d4cec600aa2d267edd94256813b8e": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "6e7e9583ed3041d40426d50d3f34c3a4"
+            }
+        },
+        "6ab633a3650272566efce1c83032125d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "729d4cec600aa2d267edd94256813b8e"
+            },
+            "name": "arrayOfStructures"
+        }
+    }
+}

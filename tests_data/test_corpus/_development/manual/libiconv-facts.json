@@ -1,0 +1,1407 @@
+{
+    "library": "/tmp/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.4.0/libiconv-1.16-siyi6w2iorkdqizbibqjp7yfjczpxmul/lib/libiconv.so.2.6.1",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "_libiconv_version",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "stdin",
+                    "location": "var",
+                    "type": "12b1a5f21780c1f2fb7fb73c1acef9d8",
+                    "direction": "import"
+                },
+                {
+                    "name": "stdout",
+                    "location": "var",
+                    "type": "fc9fb8fbfbdd70bc885041f7e7d2f396",
+                    "direction": "import"
+                },
+                {
+                    "name": "stderr",
+                    "location": "var",
+                    "type": "54084a351e62a68b7cb401d079c3044f",
+                    "direction": "import"
+                },
+                {
+                    "name": "sys_nerr",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "sys_errlist",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "__tzname",
+                    "location": "var",
+                    "type": "c470af21ba90c28c92ce405a1125a723",
+                    "direction": "import"
+                },
+                {
+                    "name": "__daylight",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "__timezone",
+                    "location": "var",
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "import"
+                },
+                {
+                    "name": "tzname",
+                    "location": "var",
+                    "type": "e6920c27e54fc3747942ebdff7eb584f",
+                    "direction": "import"
+                },
+                {
+                    "name": "daylight",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "timezone",
+                    "location": "var",
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sys_nerr",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sys_errlist",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "iconv_canonicalize",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "type": "6ad1440db347f30dddfa5ecd95ca8ffb",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "c352fd79e49dae7fa9e6e1428d7fe058",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "libiconvlist",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "do_one",
+                        "type": "f5903da6274a5bd25211c15038a675e5",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "data",
+                        "type": "fa745782d470b7abf2f22e047b317705",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "libiconvctl",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "icd",
+                        "type": "acbf699249f6c354142d47d99ac789bd",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "request",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argument",
+                        "type": "889f587223a288d70438e8939c9c51ea",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_open_into",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "tocode",
+                        "type": "2095b962f85266fba400718d86e13173",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fromcode",
+                        "type": "943badc07a1f676d19967763084a2d1e",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "resultp",
+                        "type": "02208d734c5d69a9ddcf7a64a98b7a09",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_close",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "icd",
+                        "type": "acbf699249f6c354142d47d99ac789bd",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "icd",
+                        "type": "acbf699249f6c354142d47d99ac789bd",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "inbuf",
+                        "type": "1cfe885c7735d6004d89941e5b40e27a",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "inbytesleft",
+                        "type": "aaaa0e7999d5388e57af79276b7ae716",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "outbuf",
+                        "type": "fcdc0a592caaec41fd7928c7c3b1ce5f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "outbytesleft",
+                        "type": "7d0e471f28a4c7d8e1a14ff2cf768842",
+                        "location": "%rcx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_open",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "tocode",
+                        "type": "2095b962f85266fba400718d86e13173",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fromcode",
+                        "type": "943badc07a1f676d19967763084a2d1e",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "acbf699249f6c354142d47d99ac789bd",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "a827bd9c786dc509ed957212f8b81abc",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "f76b6a3c78020fef9454dce05c8632ad",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "ec5b1b59f9dbd690e1fb6e8bf5a95609",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "qsort",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "nl_langinfo",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_set_relocation_prefix",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "orig_prefix_arg",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "curr_prefix_arg",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "direction": "import"
+            }
+        },
+        {
+            "callsite": {
+                "name": "aliases_lookup",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "qsort",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "free",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "malloc",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        }
+    ],
+    "types": {
+        "1fd8c01bdca094933f920b41375cfed0": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "ee8eaa81ccacc2d49d87afa5ca1148a8": {
+            "type": "char",
+            "size": 1,
+            "class": "Integral",
+            "direction": "import"
+        },
+        "eb8c2476fb91af08022f8ff4931444c8": {
+            "name": "_IO_read_ptr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "61aa6778f5a0f4892eb9998fd9ebb1ea": {
+            "name": "_IO_read_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "dcd9a510e3f3ec28e50a270fc19b1280": {
+            "name": "_IO_read_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "6fa6b1d837879d3c2313d0b5c1052747": {
+            "name": "_IO_write_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "d47b37562625f88cb96cefc36a7782ae": {
+            "name": "_IO_write_ptr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "b6b667462c70112f9c1a15f0e2c87b94": {
+            "name": "_IO_write_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "760ad948e5c1819165f1c2222df84d1a": {
+            "name": "_IO_buf_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "2d32f4403b1ebc9b0aa33e705f41e031": {
+            "name": "_IO_buf_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "82e07afe4179d5c609705ffcc9a4db81": {
+            "name": "_IO_save_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "9099db63e3e02ba354a4d974fa88c591": {
+            "name": "_IO_backup_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "15b8a48c2537827a2bd13bdf989ebba0": {
+            "name": "_IO_save_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "22488af440eaee5f0caec25a47ce367e": {
+            "name": "_IO_marker",
+            "size": 0,
+            "class": "Struct"
+        },
+        "fe37c075ee9753aca2ec654e457da1d7": {
+            "name": "_markers",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "22488af440eaee5f0caec25a47ce367e"
+            },
+            "direction": "both",
+            "type": "*22488af440eaee5f0caec25a47ce367e",
+            "indirections": 1
+        },
+        "832037bcbd004730c7738b05d956e54e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "53f3605b08deb1382db3e44cb033ec43": {
+            "name": "__off_t",
+            "type": "832037bcbd004730c7738b05d956e54e"
+        },
+        "251ba5521033493f21e959542089468c": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "b54b4317e56dcaace25c0b0efdc93d40": {
+            "type": "signed char",
+            "size": 1,
+            "class": "Integral",
+            "direction": "import"
+        },
+        "6d168f46b7d9e8b96a1ff9b171e0ad48": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "86bc3cc70733b00a600c133f158d49e2": {
+            "class": "Array",
+            "name": "_shortbuf",
+            "size": 0,
+            "count": 0,
+            "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+        },
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
+        },
+        "04e2665ae0d47bf5ebc3c31a5e859164": {
+            "name": "_IO_lock_t",
+            "type": "3136b53c7788b73670691bd7c934571c"
+        },
+        "399a24fa38d7ec631949f139d885e703": {
+            "name": "_lock",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "04e2665ae0d47bf5ebc3c31a5e859164"
+            },
+            "direction": "both",
+            "type": "*04e2665ae0d47bf5ebc3c31a5e859164",
+            "indirections": 1
+        },
+        "480b5658d062c1ea78c88cc704cc077e": {
+            "name": "__off64_t",
+            "type": "832037bcbd004730c7738b05d956e54e"
+        },
+        "cc28a667e7092e7be61666bf3838975f": {
+            "name": "_IO_codecvt",
+            "size": 0,
+            "class": "Struct"
+        },
+        "894ffbce60afef6af5d4d6f0618944e4": {
+            "name": "_codecvt",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "cc28a667e7092e7be61666bf3838975f"
+            },
+            "direction": "both",
+            "type": "*cc28a667e7092e7be61666bf3838975f",
+            "indirections": 1
+        },
+        "9e8e6f4c30e7db1de823a84bfce74a67": {
+            "name": "_IO_wide_data",
+            "size": 0,
+            "class": "Struct"
+        },
+        "e3521cf08427488e85b561b2cdb5d739": {
+            "name": "_wide_data",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9e8e6f4c30e7db1de823a84bfce74a67"
+            },
+            "direction": "both",
+            "type": "*9e8e6f4c30e7db1de823a84bfce74a67",
+            "indirections": 1
+        },
+        "3d14adb64797c2d980c962816a5ab916": {
+            "name": "_freeres_list",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "direction": "both",
+            "type": "*Recursive",
+            "indirections": 1
+        },
+        "fd8f752ac8233eaaa6f056630be3f18b": {
+            "name": "_freeres_buf",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "2b7927ac6886d6f780cffd9e51ebbc49": {
+            "name": "size_t",
+            "type": "6d168f46b7d9e8b96a1ff9b171e0ad48"
+        },
+        "eadc7a49a20dc0a4df4dfebceddbf9da": {
+            "class": "Array",
+            "name": "_unused2",
+            "size": 0,
+            "count": 0,
+            "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+        },
+        "2824981a134cb94b9fd4290999f81aad": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "eb8c2476fb91af08022f8ff4931444c8",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "61aa6778f5a0f4892eb9998fd9ebb1ea",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "dcd9a510e3f3ec28e50a270fc19b1280",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "6fa6b1d837879d3c2313d0b5c1052747",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "d47b37562625f88cb96cefc36a7782ae",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "b6b667462c70112f9c1a15f0e2c87b94",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "760ad948e5c1819165f1c2222df84d1a",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "2d32f4403b1ebc9b0aa33e705f41e031",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "82e07afe4179d5c609705ffcc9a4db81",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "9099db63e3e02ba354a4d974fa88c591",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "15b8a48c2537827a2bd13bdf989ebba0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_markers",
+                    "type": "fe37c075ee9753aca2ec654e457da1d7",
+                    "direction": "export"
+                },
+                {
+                    "name": "_chain",
+                    "type": "Recursive",
+                    "direction": "export"
+                },
+                {
+                    "name": "_fileno",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_flags2",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "53f3605b08deb1382db3e44cb033ec43",
+                    "direction": "export"
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "251ba5521033493f21e959542089468c",
+                    "direction": "export"
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "b54b4317e56dcaace25c0b0efdc93d40",
+                    "direction": "export"
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "86bc3cc70733b00a600c133f158d49e2",
+                    "direction": "export"
+                },
+                {
+                    "name": "_lock",
+                    "type": "399a24fa38d7ec631949f139d885e703",
+                    "direction": "export"
+                },
+                {
+                    "name": "_offset",
+                    "type": "480b5658d062c1ea78c88cc704cc077e",
+                    "direction": "export"
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "894ffbce60afef6af5d4d6f0618944e4",
+                    "direction": "export"
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "e3521cf08427488e85b561b2cdb5d739",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "3d14adb64797c2d980c962816a5ab916",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "fd8f752ac8233eaaa6f056630be3f18b",
+                    "direction": "export"
+                },
+                {
+                    "name": "__pad5",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "_mode",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_unused2",
+                    "type": "eadc7a49a20dc0a4df4dfebceddbf9da",
+                    "direction": "export"
+                }
+            ]
+        },
+        "90d143d267d7c5e65e78918597c2e004": {
+            "name": "_chain",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "2824981a134cb94b9fd4290999f81aad"
+            },
+            "direction": "both",
+            "type": "*2824981a134cb94b9fd4290999f81aad",
+            "indirections": 1
+        },
+        "d969a77bfc2abdccba83c0f06478ca8a": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "eb8c2476fb91af08022f8ff4931444c8",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "61aa6778f5a0f4892eb9998fd9ebb1ea",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "dcd9a510e3f3ec28e50a270fc19b1280",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "6fa6b1d837879d3c2313d0b5c1052747",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "d47b37562625f88cb96cefc36a7782ae",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "b6b667462c70112f9c1a15f0e2c87b94",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "760ad948e5c1819165f1c2222df84d1a",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "2d32f4403b1ebc9b0aa33e705f41e031",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "82e07afe4179d5c609705ffcc9a4db81",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "9099db63e3e02ba354a4d974fa88c591",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "15b8a48c2537827a2bd13bdf989ebba0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_markers",
+                    "type": "fe37c075ee9753aca2ec654e457da1d7",
+                    "direction": "export"
+                },
+                {
+                    "name": "_chain",
+                    "type": "90d143d267d7c5e65e78918597c2e004",
+                    "direction": "export"
+                },
+                {
+                    "name": "_fileno",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_flags2",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "53f3605b08deb1382db3e44cb033ec43",
+                    "direction": "export"
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "251ba5521033493f21e959542089468c",
+                    "direction": "export"
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "b54b4317e56dcaace25c0b0efdc93d40",
+                    "direction": "export"
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "86bc3cc70733b00a600c133f158d49e2",
+                    "direction": "export"
+                },
+                {
+                    "name": "_lock",
+                    "type": "399a24fa38d7ec631949f139d885e703",
+                    "direction": "export"
+                },
+                {
+                    "name": "_offset",
+                    "type": "480b5658d062c1ea78c88cc704cc077e",
+                    "direction": "export"
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "894ffbce60afef6af5d4d6f0618944e4",
+                    "direction": "export"
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "e3521cf08427488e85b561b2cdb5d739",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "3d14adb64797c2d980c962816a5ab916",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "fd8f752ac8233eaaa6f056630be3f18b",
+                    "direction": "export"
+                },
+                {
+                    "name": "__pad5",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "_mode",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_unused2",
+                    "type": "eadc7a49a20dc0a4df4dfebceddbf9da",
+                    "direction": "export"
+                }
+            ]
+        },
+        "5761685192ab7466c6bddb78279b0aa1": {
+            "name": "FILE",
+            "type": "d969a77bfc2abdccba83c0f06478ca8a"
+        },
+        "12b1a5f21780c1f2fb7fb73c1acef9d8": {
+            "name": "stdin",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5761685192ab7466c6bddb78279b0aa1"
+            },
+            "direction": "both",
+            "type": "*5761685192ab7466c6bddb78279b0aa1",
+            "indirections": 1
+        },
+        "fc9fb8fbfbdd70bc885041f7e7d2f396": {
+            "name": "stdout",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5761685192ab7466c6bddb78279b0aa1"
+            },
+            "direction": "both",
+            "type": "*5761685192ab7466c6bddb78279b0aa1",
+            "indirections": 1
+        },
+        "54084a351e62a68b7cb401d079c3044f": {
+            "name": "stderr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5761685192ab7466c6bddb78279b0aa1"
+            },
+            "direction": "both",
+            "type": "*5761685192ab7466c6bddb78279b0aa1",
+            "indirections": 1
+        },
+        "b1d4b0625bfdb87216d1ae24a0818d92": {
+            "type": "unknown",
+            "size": 0,
+            "class": "Constant",
+            "direction": "import"
+        },
+        "f0408070290f50d84fdd56874abf6f68": {
+            "name": "unknown",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "c470af21ba90c28c92ce405a1125a723": {
+            "class": "Array",
+            "name": "__tzname",
+            "size": 0,
+            "count": 0,
+            "type": "f0408070290f50d84fdd56874abf6f68"
+        },
+        "e6920c27e54fc3747942ebdff7eb584f": {
+            "class": "Array",
+            "name": "tzname",
+            "size": 0,
+            "count": 0,
+            "type": "f0408070290f50d84fdd56874abf6f68"
+        },
+        "c352fd79e49dae7fa9e6e1428d7fe058": {
+            "name": "iconv_canonicalize",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "6ad1440db347f30dddfa5ecd95ca8ffb": {
+            "name": "name",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "6f85a4f1851509c0dc41a929d34079c2": {
+            "type": "1fd8c01bdca094933f920b41375cfed0"
+        },
+        "f5903da6274a5bd25211c15038a675e5": {
+            "name": "do_one",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "6f85a4f1851509c0dc41a929d34079c2"
+            },
+            "direction": "both",
+            "type": "*6f85a4f1851509c0dc41a929d34079c2",
+            "indirections": 1
+        },
+        "fa745782d470b7abf2f22e047b317705": {
+            "name": "data",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "27697982dd2ecef6ba155147b1f291dc": {
+            "name": "libiconv_t",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "acbf699249f6c354142d47d99ac789bd": {
+            "name": "libiconv_t",
+            "type": "27697982dd2ecef6ba155147b1f291dc"
+        },
+        "889f587223a288d70438e8939c9c51ea": {
+            "name": "argument",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "2095b962f85266fba400718d86e13173": {
+            "name": "tocode",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "943badc07a1f676d19967763084a2d1e": {
+            "name": "fromcode",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "ab6f625e2fd0429df9d0495a4c47ad24": {
+            "name": "unknown",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "837f8de2ad8cc3df5a8218b85d123d9a": {
+            "class": "Array",
+            "name": "dummy1",
+            "size": 0,
+            "count": 0,
+            "type": "ab6f625e2fd0429df9d0495a4c47ad24"
+        },
+        "724f0b94c416f03c89c16150cf866e00": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "532d4c2a918b7054e8ded6eb46885f81": {
+            "class": "Array",
+            "name": "__wchb",
+            "size": 0,
+            "count": 0,
+            "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+        },
+        "f63ffc4a2cce5813bdbd24b28ec0e081": {
+            "name": "unknown",
+            "size": 4,
+            "class": "Union",
+            "fields": [
+                {
+                    "name": "__wch",
+                    "type": "724f0b94c416f03c89c16150cf866e00"
+                },
+                {
+                    "name": "__wchb",
+                    "type": "532d4c2a918b7054e8ded6eb46885f81"
+                }
+            ]
+        },
+        "a9252ee5b0ae0382381ca1cbc0178555": {
+            "name": "unknown",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "__count",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "__value",
+                    "type": "f63ffc4a2cce5813bdbd24b28ec0e081",
+                    "direction": "export"
+                }
+            ]
+        },
+        "52821371a69efe8d73bd6589c1732315": {
+            "name": "__mbstate_t",
+            "type": "a9252ee5b0ae0382381ca1cbc0178555"
+        },
+        "acedc5a82cf29068deb07d58e74bfb04": {
+            "name": "mbstate_t",
+            "type": "52821371a69efe8d73bd6589c1732315"
+        },
+        "82e6f78ce576ab587da97daf74c8b2d6": {
+            "name": "unknown",
+            "size": 232,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "dummy1",
+                    "type": "837f8de2ad8cc3df5a8218b85d123d9a",
+                    "direction": "export"
+                },
+                {
+                    "name": "dummy2",
+                    "type": "acedc5a82cf29068deb07d58e74bfb04",
+                    "direction": "export"
+                }
+            ]
+        },
+        "92552a1f8f152149a02ca203eb233d6c": {
+            "name": "iconv_allocation_t",
+            "type": "82e6f78ce576ab587da97daf74c8b2d6"
+        },
+        "02208d734c5d69a9ddcf7a64a98b7a09": {
+            "name": "resultp",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "92552a1f8f152149a02ca203eb233d6c"
+            },
+            "direction": "both",
+            "type": "*92552a1f8f152149a02ca203eb233d6c",
+            "indirections": 1
+        },
+        "d5dd634bc48185335c216e755142155b": {
+            "name": "unknown",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 2
+        },
+        "1cfe885c7735d6004d89941e5b40e27a": {
+            "name": "inbuf",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5dd634bc48185335c216e755142155b"
+            },
+            "direction": "both",
+            "type": "*d5dd634bc48185335c216e755142155b",
+            "indirections": 1
+        },
+        "aaaa0e7999d5388e57af79276b7ae716": {
+            "name": "inbytesleft",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+            },
+            "direction": "both",
+            "type": "*2b7927ac6886d6f780cffd9e51ebbc49",
+            "indirections": 1
+        },
+        "fcdc0a592caaec41fd7928c7c3b1ce5f": {
+            "name": "outbuf",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5dd634bc48185335c216e755142155b"
+            },
+            "direction": "both",
+            "type": "*d5dd634bc48185335c216e755142155b",
+            "indirections": 1
+        },
+        "7d0e471f28a4c7d8e1a14ff2cf768842": {
+            "name": "outbytesleft",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+            },
+            "direction": "both",
+            "type": "*2b7927ac6886d6f780cffd9e51ebbc49",
+            "indirections": 1
+        },
+        "ec5b1b59f9dbd690e1fb6e8bf5a95609": {
+            "name": "memcpy",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "a827bd9c786dc509ed957212f8b81abc": {
+            "type": "ab6f625e2fd0429df9d0495a4c47ad24"
+        },
+        "f82dec616980ce95a30df043ae338eef": {
+            "name": "unknown",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "f76b6a3c78020fef9454dce05c8632ad": {
+            "type": "f82dec616980ce95a30df043ae338eef"
+        }
+    }
+}

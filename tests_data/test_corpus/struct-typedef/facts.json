@@ -1,0 +1,178 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/struct-typedef/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_Z3barRP3TwoS1_",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": "7d495312ebc453ee800f688c4d47bf0a",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "b",
+                        "type": "9f0cd11ba39b1021e8c4b98f7f1c8ce5",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooP3TwoS0_",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": "1184ebb5a7ea59f05d56ef045d5ea85d",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "b",
+                        "type": "8725f69f8eb0adcbd377e33e41f98e99",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "27f4421b52d23325b13955e95e1e268e": {
+            "name": "One",
+            "size": 4,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "x",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                }
+            ]
+        },
+        "1dfc14263c25b1a025497bd390b04a49": {
+            "name": "one_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "One",
+                "size": 4,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "x",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 0
+                    }
+                ]
+            },
+            "size": 4
+        },
+        "d1eb0cc861a0204525ed601c62e98156": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "1dfc14263c25b1a025497bd390b04a49"
+            },
+            "name": "p"
+        },
+        "0cbc9e35019172d1ad6d215db768cdf8": {
+            "class": "Reference",
+            "size": 8,
+            "underlying_type": {
+                "type": "1dfc14263c25b1a025497bd390b04a49"
+            }
+        },
+        "40b60c323e6ca7def94ba72588c5cb9d": {
+            "name": "Two",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "d",
+                    "type": "1dfc14263c25b1a025497bd390b04a49",
+                    "offset": 0
+                },
+                {
+                    "name": "p",
+                    "type": "d1eb0cc861a0204525ed601c62e98156",
+                    "offset": 8
+                },
+                {
+                    "name": "r",
+                    "type": "0cbc9e35019172d1ad6d215db768cdf8",
+                    "offset": 16
+                }
+            ]
+        },
+        "3ad8c53a7f871c91848f85e598335c5d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "40b60c323e6ca7def94ba72588c5cb9d"
+            },
+            "name": "ptwo_t"
+        },
+        "1184ebb5a7ea59f05d56ef045d5ea85d": {
+            "name": "ptwo_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "40b60c323e6ca7def94ba72588c5cb9d"
+                },
+                "name": "ptwo_t"
+            },
+            "size": 8
+        },
+        "7d495312ebc453ee800f688c4d47bf0a": {
+            "class": "Reference",
+            "size": 8,
+            "underlying_type": {
+                "type": "1184ebb5a7ea59f05d56ef045d5ea85d"
+            }
+        },
+        "9f0cd11ba39b1021e8c4b98f7f1c8ce5": {
+            "name": "rptwo_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Reference",
+                "size": 8,
+                "underlying_type": {
+                    "type": "1184ebb5a7ea59f05d56ef045d5ea85d"
+                }
+            },
+            "size": 8
+        },
+        "8725f69f8eb0adcbd377e33e41f98e99": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "40b60c323e6ca7def94ba72588c5cb9d"
+            },
+            "name": "b"
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/global-variables/lib.so",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "inty",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export"
+                },
+                {
+                    "name": "booley",
+                    "location": "var",
+                    "type": "20ef28a223bc4bb32b11358764322945",
+                    "direction": "export"
+                },
+                {
+                    "name": "doubley",
+                    "location": "var",
+                    "type": "6509b918841961f96fc9df084f97d12a",
+                    "direction": "export"
+                },
+                {
+                    "name": "intyterny",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "thestructure",
+                    "location": "var",
+                    "type": {
+                        "name": "structy",
+                        "size": 24,
+                        "class": "Struct",
+                        "fields": [
+                            {
+                                "name": "one",
+                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                "offset": 0,
+                                "direction": "export"
+                            },
+                            {
+                                "name": "two",
+                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                "offset": 8,
+                                "direction": "export"
+                            },
+                            {
+                                "name": "three",
+                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                "offset": 16,
+                                "direction": "export"
+                            }
+                        ]
+                    },
+                    "direction": "export"
+                },
+                {
+                    "name": "externstructy",
+                    "location": "var",
+                    "type": {
+                        "name": "structy",
+                        "size": 24,
+                        "class": "Struct",
+                        "fields": [
+                            {
+                                "name": "one",
+                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                "offset": 0,
+                                "direction": "import"
+                            },
+                            {
+                                "name": "two",
+                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                "offset": 8,
+                                "direction": "import"
+                            },
+                            {
+                                "name": "three",
+                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                "offset": 16,
+                                "direction": "import"
+                            }
+                        ]
+                    },
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "_Z3foov",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "20ef28a223bc4bb32b11358764322945": {
+            "type": "bool",
+            "size": 1,
+            "class": "Integer"
+        },
+        "6509b918841961f96fc9df084f97d12a": {
+            "type": "long double",
+            "size": 16,
+            "class": "Float"
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "71eb013dc6703f4f3319f4b0e5c532c4": {
+            "name": "structy",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "one",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "two",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 8
+                },
+                {
+                    "name": "three",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 16
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/fixed-sized-array/lib.so",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "fixedSizeArray",
+                    "location": "var",
+                    "type": "8084b7ca14517cdeeb95d783ba48548d",
+                    "direction": "export"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z30function_with_fixed_size_arrayPi",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "array",
+                        "type": "c31c2518fddc91c25994a30fb492944b",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "8084b7ca14517cdeeb95d783ba48548d": {
+            "class": "Array",
+            "name": "fixedSizeArray",
+            "size": 120,
+            "counts": [
+                30
+            ],
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
+        },
+        "c31c2518fddc91c25994a30fb492944b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "array"
+        }
+    }
+}

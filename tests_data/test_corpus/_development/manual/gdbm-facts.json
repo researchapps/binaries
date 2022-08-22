@@ -1,0 +1,5825 @@
+{
+    "library": "/tmp/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.4.0/gdbm-1.19-jweun44cgrauicbghax2cr7xkmj2rjve/lib/libgdbm.so.6.0.0",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "stdin",
+                    "location": "var",
+                    "type": "12b1a5f21780c1f2fb7fb73c1acef9d8",
+                    "direction": "import"
+                },
+                {
+                    "name": "stdout",
+                    "location": "var",
+                    "type": "fc9fb8fbfbdd70bc885041f7e7d2f396",
+                    "direction": "import"
+                },
+                {
+                    "name": "stderr",
+                    "location": "var",
+                    "type": "54084a351e62a68b7cb401d079c3044f",
+                    "direction": "import"
+                },
+                {
+                    "name": "sys_nerr",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "sys_errlist",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sys_nerr",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sys_errlist",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "__environ",
+                    "location": "var",
+                    "type": "c6d96afff7b81ccefa92b56d612a2416",
+                    "direction": "import"
+                },
+                {
+                    "name": "environ",
+                    "location": "var",
+                    "type": "15a474ca4c859e4efb73dc97dd73b246",
+                    "direction": "import"
+                },
+                {
+                    "name": "optarg",
+                    "location": "var",
+                    "type": "d836ebd67d980ed32c478bb897b8e981",
+                    "direction": "import"
+                },
+                {
+                    "name": "optind",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "opterr",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "optopt",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "program_invocation_name",
+                    "location": "var",
+                    "type": "9eb0847a3181d5a9e5c1f607c18220fe",
+                    "direction": "import"
+                },
+                {
+                    "name": "program_invocation_short_name",
+                    "location": "var",
+                    "type": "7fae83808c21f1e0874c7f099b9247cd",
+                    "direction": "import"
+                },
+                {
+                    "name": "gdbm_version",
+                    "location": "var",
+                    "type": "64a0315990fe4866f02789d22eebde46",
+                    "direction": "import"
+                },
+                {
+                    "name": "gdbm_version_number",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "gdbm_errlist",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "gdbm_syserr",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "__tzname",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "__daylight",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "__timezone",
+                    "location": "var",
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "import"
+                },
+                {
+                    "name": "tzname",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "daylight",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "timezone",
+                    "location": "var",
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "import"
+                },
+                {
+                    "name": "getdate_err",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "in6addr_any",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "in6addr_loopback",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "gdbm_close",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "467d75bbb0c00226a14ae1ff24dd0d92",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_unmap",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_syserr",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_clear_error",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_unlock_file",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_count",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "9083309df87947627148f279753d4bed",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "pcount",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_next_bucket_dir",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_get_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_delete",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_findkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_free",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_end_update",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_dump",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "filename",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fmt",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "open_flags",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "mode",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_dump_to_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fp",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "format",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_dump_ascii",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fp",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__path",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__oflag",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fdopen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_nextkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fetch",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fwrite",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fdesc",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "time",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "ctime",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getpwuid",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getgrgid",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_firstkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_clear_error",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fputc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fwrite",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_base64_encode",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "ferror",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_export_to_file",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_check_syserr",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "n",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_strerror",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "error",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_clear_error",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_needs_recovery",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_syserr",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_errno",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "ec",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fatal",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export",
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "ee8eaa81ccacc2d49d87afa5ca1148a8",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "87442b7a21bf91a39c20e1cc5a4742c3",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strerror",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_exists",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_findkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_export",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "exportfile",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flags",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "mode",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_export_to_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fp",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__path",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__oflag",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fdopen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fwrite",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_firstkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_nextkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fetch",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_clear_error",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fdesc",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "467d75bbb0c00226a14ae1ff24dd0d92",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fetch",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "b7dfaba03f207c1c683dc144a18ef266",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "ec5b1b59f9dbd690e1fb6e8bf5a95609",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_findkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_load",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "pdbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "filename",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "replace",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "meta_mask",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "line",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_load_from_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "pdbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fp",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "replace",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "meta_mask",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "line",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_load_bdb_dump",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dbf",
+                        "type": "37a6259cc0c1dae299a7866489dff0bd",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "replace",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_load_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dbf",
+                        "type": "37a6259cc0c1dae299a7866489dff0bd",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "ofp",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "replace",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "meta_mask",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "read_record",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "param",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "n",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dat",
+                        "type": "d499b296b32f418cc9fcad5e1f77f0f2",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "get_len",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "param",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "plen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "fgets",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__s",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__stream",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fgets",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strchr",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fgetc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_store",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "ferror",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_base64_decode",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strtoul",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "feof",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getpwnam",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getgrnam",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fdesc",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "getuid",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fchmod",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fchown",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_open",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_close",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "ungetc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_import_from_file",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_cache_entry_invalidate",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "index",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_init_cache",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_open",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "block_size",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flags",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "mode",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fatal_func",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fd_open",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "fd",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "file_name",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "block_size",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flags",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fatal_func",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_validate_header",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_bucket_avail_table_validate",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bucket",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_avail_block_validate",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "avblk",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_avail_table_valid_p",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "av",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "count",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__path",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__oflag",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_close",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_new_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_write",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_file_extend",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_read",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "ftruncate",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_lock_file",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_init",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "qsort",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_import",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "importfile",
+                        "type": "4c2bb267cd4692be16abe08182ac07ad",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flag",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_import_from_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "fp",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flag",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__ptr",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__stream",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_store",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fgetc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_reorganize",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "467d75bbb0c00226a14ae1ff24dd0d92",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_recover",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_nextkey",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_firstkey",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "b7dfaba03f207c1c683dc144a18ef266",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "ec5b1b59f9dbd690e1fb6e8bf5a95609",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_findkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_get_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_read_entry",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_setopt",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "optflag",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "optval",
+                        "type": "b62d39de7e450553dd00aef8df76f7b3",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "optlen",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_unmap",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_init",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "sysconf",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_init_cache",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_store",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "content",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flags",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "b7dfaba03f207c1c683dc144a18ef266",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "ec5b1b59f9dbd690e1fb6e8bf5a95609",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_split_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_findkey",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_free",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_alloc",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_write",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_end_update",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_errno_location",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_fatal",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_sync",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "467d75bbb0c00226a14ae1ff24dd0d92",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_base64_decode",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "input",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "input_len",
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "output",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "output_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "inbytes",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "outbytes",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_base64_encode",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "input",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "input_len",
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "output",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "output_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "nbytes",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_write_bucket",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "ca_entry",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_split_bucket",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "next_insert",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_read_bucket_at",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "off",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bucket",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_get_bucket",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dir_index",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_dir_entry_valid_p",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dir_index",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_new_bucket",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bucket",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bits",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "b7dfaba03f207c1c683dc144a18ef266",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "ec5b1b59f9dbd690e1fb6e8bf5a95609",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_alloc",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_bucket_dir",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_put_av_elem",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_fatal",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_init_cache",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_free",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_read",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_cache_entry_invalidate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_bucket_avail_table_validate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_write",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_put_av_elem",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "new_el",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "av_table",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "av_count",
+                        "type": "6f85a4f1851509c0dc41a929d34079c2",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "can_merge",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_free",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "file_adr",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "num_bytes",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_alloc",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "num_bytes",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_fatal",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_write",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_read",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_avail_block_validate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_unmap",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_findkey",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "ret_dptr",
+                        "type": "613736380b595e894cad7f0df4cc7a79",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "ret_hash_val",
+                        "type": "37a6259cc0c1dae299a7866489dff0bd",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_read_entry",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "elem_loc",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3b95af9da8852a7bb052054609dbc2ab",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_bucket_element_valid_p",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "elem_loc",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_hash_key",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_get_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcmp",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_fatal",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_read",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_file_extend",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_write",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buffer",
+                        "type": "2d44c220af9fe7b30e14544698ac47c8",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_read",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buffer",
+                        "type": "2d44c220af9fe7b30e14544698ac47c8",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "write",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "sysconf",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "lseek",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_write",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_read",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_hash_key",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "hash",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bucket",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_bucket_dir",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "hash",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_hash",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_lock_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_unlock_file",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "flock",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "lockf",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fcntl",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "whence",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_write",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buffer",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_read",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buffer",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_init",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_remap",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flag",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_internal_remap",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_unmap",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_file_size",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "psize",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "read",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__fd",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__nbytes",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "msync",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fsync",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "lseek",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "write",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "read",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "sysconf",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "munmap",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "mmap",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_file_extend",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_recover",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "rcvr",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flags",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_next_bucket_dir",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bucket_dir",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_copy_meta",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dst",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_store",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_read_entry",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_last_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_get_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "access",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_close",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "rename",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_end_update",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_unmap",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_init",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_unlock_file",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcmp",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_hash_key",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_validate_header",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_clear_error",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "mkstemp",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_fd_open",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "fchown",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fchmod",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_fatal",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "467d75bbb0c00226a14ae1ff24dd0d92",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "val",
+                        "type": "2ab86774d6a2723ba35469e4d3183509",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_end_update",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dbf",
+                        "type": "467d75bbb0c00226a14ae1ff24dd0d92",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "exit",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_write_bucket",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_lseek",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_mapped_sync",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_full_write",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "_gdbm_file_extend",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_set_errno",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_db_strerror",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gdbm_version_cmp",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "b",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "callsite": {
+                "name": "gdbm_set_errno",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "_gdbm_mapped_unmap",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "gdbm_last_syserr",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "gdbm_clear_error",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "free",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "gdbm_set_errno",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "_gdbm_unlock_file",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "_gdbm_mapped_unmap",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "unknown",
+                "params": [
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "bucket_dir",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "unknown",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "unknown",
+                "params": [
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "i",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "desc",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "hash_bucket",
+                "params": [
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "gdbm_close",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "gdbm_close",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        }
+    ],
+    "types": {
+        "1fd8c01bdca094933f920b41375cfed0": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "ee8eaa81ccacc2d49d87afa5ca1148a8": {
+            "type": "char",
+            "size": 1,
+            "class": "Integral",
+            "direction": "import"
+        },
+        "eb8c2476fb91af08022f8ff4931444c8": {
+            "name": "_IO_read_ptr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "61aa6778f5a0f4892eb9998fd9ebb1ea": {
+            "name": "_IO_read_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "dcd9a510e3f3ec28e50a270fc19b1280": {
+            "name": "_IO_read_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "6fa6b1d837879d3c2313d0b5c1052747": {
+            "name": "_IO_write_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "d47b37562625f88cb96cefc36a7782ae": {
+            "name": "_IO_write_ptr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "b6b667462c70112f9c1a15f0e2c87b94": {
+            "name": "_IO_write_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "760ad948e5c1819165f1c2222df84d1a": {
+            "name": "_IO_buf_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "2d32f4403b1ebc9b0aa33e705f41e031": {
+            "name": "_IO_buf_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "82e07afe4179d5c609705ffcc9a4db81": {
+            "name": "_IO_save_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "9099db63e3e02ba354a4d974fa88c591": {
+            "name": "_IO_backup_base",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "15b8a48c2537827a2bd13bdf989ebba0": {
+            "name": "_IO_save_end",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "22488af440eaee5f0caec25a47ce367e": {
+            "name": "_IO_marker",
+            "size": 0,
+            "class": "Struct"
+        },
+        "fe37c075ee9753aca2ec654e457da1d7": {
+            "name": "_markers",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "22488af440eaee5f0caec25a47ce367e"
+            },
+            "direction": "both",
+            "type": "*22488af440eaee5f0caec25a47ce367e",
+            "indirections": 1
+        },
+        "832037bcbd004730c7738b05d956e54e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "53f3605b08deb1382db3e44cb033ec43": {
+            "name": "__off_t",
+            "type": "832037bcbd004730c7738b05d956e54e"
+        },
+        "251ba5521033493f21e959542089468c": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "b54b4317e56dcaace25c0b0efdc93d40": {
+            "type": "signed char",
+            "size": 1,
+            "class": "Integral",
+            "direction": "import"
+        },
+        "6d168f46b7d9e8b96a1ff9b171e0ad48": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "86bc3cc70733b00a600c133f158d49e2": {
+            "class": "Array",
+            "name": "_shortbuf",
+            "size": 0,
+            "count": 0,
+            "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+        },
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
+        },
+        "04e2665ae0d47bf5ebc3c31a5e859164": {
+            "name": "_IO_lock_t",
+            "type": "3136b53c7788b73670691bd7c934571c"
+        },
+        "399a24fa38d7ec631949f139d885e703": {
+            "name": "_lock",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "04e2665ae0d47bf5ebc3c31a5e859164"
+            },
+            "direction": "both",
+            "type": "*04e2665ae0d47bf5ebc3c31a5e859164",
+            "indirections": 1
+        },
+        "480b5658d062c1ea78c88cc704cc077e": {
+            "name": "__off64_t",
+            "type": "832037bcbd004730c7738b05d956e54e"
+        },
+        "cc28a667e7092e7be61666bf3838975f": {
+            "name": "_IO_codecvt",
+            "size": 0,
+            "class": "Struct"
+        },
+        "894ffbce60afef6af5d4d6f0618944e4": {
+            "name": "_codecvt",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "cc28a667e7092e7be61666bf3838975f"
+            },
+            "direction": "both",
+            "type": "*cc28a667e7092e7be61666bf3838975f",
+            "indirections": 1
+        },
+        "9e8e6f4c30e7db1de823a84bfce74a67": {
+            "name": "_IO_wide_data",
+            "size": 0,
+            "class": "Struct"
+        },
+        "e3521cf08427488e85b561b2cdb5d739": {
+            "name": "_wide_data",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9e8e6f4c30e7db1de823a84bfce74a67"
+            },
+            "direction": "both",
+            "type": "*9e8e6f4c30e7db1de823a84bfce74a67",
+            "indirections": 1
+        },
+        "3d14adb64797c2d980c962816a5ab916": {
+            "name": "_freeres_list",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "direction": "both",
+            "type": "*Recursive",
+            "indirections": 1
+        },
+        "fd8f752ac8233eaaa6f056630be3f18b": {
+            "name": "_freeres_buf",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "2b7927ac6886d6f780cffd9e51ebbc49": {
+            "name": "size_t",
+            "type": "6d168f46b7d9e8b96a1ff9b171e0ad48"
+        },
+        "eadc7a49a20dc0a4df4dfebceddbf9da": {
+            "class": "Array",
+            "name": "_unused2",
+            "size": 0,
+            "count": 0,
+            "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+        },
+        "2824981a134cb94b9fd4290999f81aad": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "eb8c2476fb91af08022f8ff4931444c8",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "61aa6778f5a0f4892eb9998fd9ebb1ea",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "dcd9a510e3f3ec28e50a270fc19b1280",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "6fa6b1d837879d3c2313d0b5c1052747",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "d47b37562625f88cb96cefc36a7782ae",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "b6b667462c70112f9c1a15f0e2c87b94",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "760ad948e5c1819165f1c2222df84d1a",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "2d32f4403b1ebc9b0aa33e705f41e031",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "82e07afe4179d5c609705ffcc9a4db81",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "9099db63e3e02ba354a4d974fa88c591",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "15b8a48c2537827a2bd13bdf989ebba0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_markers",
+                    "type": "fe37c075ee9753aca2ec654e457da1d7",
+                    "direction": "export"
+                },
+                {
+                    "name": "_chain",
+                    "type": "Recursive",
+                    "direction": "export"
+                },
+                {
+                    "name": "_fileno",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_flags2",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "53f3605b08deb1382db3e44cb033ec43",
+                    "direction": "export"
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "251ba5521033493f21e959542089468c",
+                    "direction": "export"
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "b54b4317e56dcaace25c0b0efdc93d40",
+                    "direction": "export"
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "86bc3cc70733b00a600c133f158d49e2",
+                    "direction": "export"
+                },
+                {
+                    "name": "_lock",
+                    "type": "399a24fa38d7ec631949f139d885e703",
+                    "direction": "export"
+                },
+                {
+                    "name": "_offset",
+                    "type": "480b5658d062c1ea78c88cc704cc077e",
+                    "direction": "export"
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "894ffbce60afef6af5d4d6f0618944e4",
+                    "direction": "export"
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "e3521cf08427488e85b561b2cdb5d739",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "3d14adb64797c2d980c962816a5ab916",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "fd8f752ac8233eaaa6f056630be3f18b",
+                    "direction": "export"
+                },
+                {
+                    "name": "__pad5",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "_mode",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_unused2",
+                    "type": "eadc7a49a20dc0a4df4dfebceddbf9da",
+                    "direction": "export"
+                }
+            ]
+        },
+        "90d143d267d7c5e65e78918597c2e004": {
+            "name": "_chain",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "2824981a134cb94b9fd4290999f81aad"
+            },
+            "direction": "both",
+            "type": "*2824981a134cb94b9fd4290999f81aad",
+            "indirections": 1
+        },
+        "d969a77bfc2abdccba83c0f06478ca8a": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "eb8c2476fb91af08022f8ff4931444c8",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "61aa6778f5a0f4892eb9998fd9ebb1ea",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "dcd9a510e3f3ec28e50a270fc19b1280",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "6fa6b1d837879d3c2313d0b5c1052747",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "d47b37562625f88cb96cefc36a7782ae",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "b6b667462c70112f9c1a15f0e2c87b94",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "760ad948e5c1819165f1c2222df84d1a",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "2d32f4403b1ebc9b0aa33e705f41e031",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "82e07afe4179d5c609705ffcc9a4db81",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "9099db63e3e02ba354a4d974fa88c591",
+                    "direction": "export"
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "15b8a48c2537827a2bd13bdf989ebba0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_markers",
+                    "type": "fe37c075ee9753aca2ec654e457da1d7",
+                    "direction": "export"
+                },
+                {
+                    "name": "_chain",
+                    "type": "90d143d267d7c5e65e78918597c2e004",
+                    "direction": "export"
+                },
+                {
+                    "name": "_fileno",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_flags2",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "53f3605b08deb1382db3e44cb033ec43",
+                    "direction": "export"
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "251ba5521033493f21e959542089468c",
+                    "direction": "export"
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "b54b4317e56dcaace25c0b0efdc93d40",
+                    "direction": "export"
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "86bc3cc70733b00a600c133f158d49e2",
+                    "direction": "export"
+                },
+                {
+                    "name": "_lock",
+                    "type": "399a24fa38d7ec631949f139d885e703",
+                    "direction": "export"
+                },
+                {
+                    "name": "_offset",
+                    "type": "480b5658d062c1ea78c88cc704cc077e",
+                    "direction": "export"
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "894ffbce60afef6af5d4d6f0618944e4",
+                    "direction": "export"
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "e3521cf08427488e85b561b2cdb5d739",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "3d14adb64797c2d980c962816a5ab916",
+                    "direction": "export"
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "fd8f752ac8233eaaa6f056630be3f18b",
+                    "direction": "export"
+                },
+                {
+                    "name": "__pad5",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "_mode",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "_unused2",
+                    "type": "eadc7a49a20dc0a4df4dfebceddbf9da",
+                    "direction": "export"
+                }
+            ]
+        },
+        "5761685192ab7466c6bddb78279b0aa1": {
+            "name": "FILE",
+            "type": "d969a77bfc2abdccba83c0f06478ca8a"
+        },
+        "12b1a5f21780c1f2fb7fb73c1acef9d8": {
+            "name": "stdin",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5761685192ab7466c6bddb78279b0aa1"
+            },
+            "direction": "both",
+            "type": "*5761685192ab7466c6bddb78279b0aa1",
+            "indirections": 1
+        },
+        "fc9fb8fbfbdd70bc885041f7e7d2f396": {
+            "name": "stdout",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5761685192ab7466c6bddb78279b0aa1"
+            },
+            "direction": "both",
+            "type": "*5761685192ab7466c6bddb78279b0aa1",
+            "indirections": 1
+        },
+        "54084a351e62a68b7cb401d079c3044f": {
+            "name": "stderr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5761685192ab7466c6bddb78279b0aa1"
+            },
+            "direction": "both",
+            "type": "*5761685192ab7466c6bddb78279b0aa1",
+            "indirections": 1
+        },
+        "b1d4b0625bfdb87216d1ae24a0818d92": {
+            "type": "unknown",
+            "size": 0,
+            "class": "Constant",
+            "direction": "import"
+        },
+        "d5dd634bc48185335c216e755142155b": {
+            "name": "unknown",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 2
+        },
+        "c6d96afff7b81ccefa92b56d612a2416": {
+            "name": "__environ",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5dd634bc48185335c216e755142155b"
+            },
+            "direction": "both",
+            "type": "*d5dd634bc48185335c216e755142155b",
+            "indirections": 1
+        },
+        "15a474ca4c859e4efb73dc97dd73b246": {
+            "name": "environ",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5dd634bc48185335c216e755142155b"
+            },
+            "direction": "both",
+            "type": "*d5dd634bc48185335c216e755142155b",
+            "indirections": 1
+        },
+        "d836ebd67d980ed32c478bb897b8e981": {
+            "name": "optarg",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "9eb0847a3181d5a9e5c1f607c18220fe": {
+            "name": "program_invocation_name",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "7fae83808c21f1e0874c7f099b9247cd": {
+            "name": "program_invocation_short_name",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "64a0315990fe4866f02789d22eebde46": {
+            "name": "gdbm_version",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "472b0296f4597f559cd572b5c4813064": {
+            "name": "name",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "724f0b94c416f03c89c16150cf866e00": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "c360c6b714ee54120fa0391a9dd054bc": {
+            "name": "gdbm_error",
+            "type": "1fd8c01bdca094933f920b41375cfed0"
+        },
+        "a02d0eb25cb9879a9f6d02ff71cf11b2": {
+            "name": "last_errstr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "45776645156c3519efa5e0b17d24778d": {
+            "name": "unknown",
+            "size": 4,
+            "type": "724f0b94c416f03c89c16150cf866e00",
+            "class": "Enum",
+            "fields": [
+                {
+                    "name": "LOCKING_NONE",
+                    "value": 0
+                },
+                {
+                    "name": "LOCKING_FLOCK",
+                    "value": 1
+                },
+                {
+                    "name": "LOCKING_LOCKF",
+                    "value": 2
+                },
+                {
+                    "name": "LOCKING_FCNTL",
+                    "value": 3
+                }
+            ]
+        },
+        "e11e1e8c586a7c4160a357b6ef8c2d84": {
+            "type": "3136b53c7788b73670691bd7c934571c"
+        },
+        "d1c1846fae4979f871c4f00bcccf78f6": {
+            "name": "fatal_err",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "e11e1e8c586a7c4160a357b6ef8c2d84"
+            },
+            "direction": "both",
+            "type": "*e11e1e8c586a7c4160a357b6ef8c2d84",
+            "indirections": 1
+        },
+        "1327c0e13c72ea7c05968d037cc91000": {
+            "name": "off_t",
+            "type": "53f3605b08deb1382db3e44cb033ec43"
+        },
+        "2bfd52165347e917c8d80e2a3b428f49": {
+            "name": "unknown",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "av_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "av_adr",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                }
+            ]
+        },
+        "646834d7e6b33e5182e55c7828b9fe56": {
+            "name": "avail_elem",
+            "type": "2bfd52165347e917c8d80e2a3b428f49"
+        },
+        "9288c2cf8a832ac4de2fb91ccc934272": {
+            "class": "Array",
+            "name": "av_table",
+            "size": 0,
+            "count": 0,
+            "type": "646834d7e6b33e5182e55c7828b9fe56"
+        },
+        "7ae7273eb03c4730f6ed0f073a61704f": {
+            "name": "unknown",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "count",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "next_block",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                },
+                {
+                    "name": "av_table",
+                    "type": "9288c2cf8a832ac4de2fb91ccc934272",
+                    "direction": "export"
+                }
+            ]
+        },
+        "3b4945429c8cec48ed6640637d1b75ca": {
+            "name": "avail_block",
+            "type": "7ae7273eb03c4730f6ed0f073a61704f"
+        },
+        "eff3ae99d2a9a2879984a85ee90f9b4b": {
+            "name": "unknown",
+            "size": 72,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "header_magic",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "block_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "dir",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                },
+                {
+                    "name": "dir_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "dir_bits",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_elems",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "next_block",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                },
+                {
+                    "name": "avail",
+                    "type": "3b4945429c8cec48ed6640637d1b75ca",
+                    "direction": "export"
+                }
+            ]
+        },
+        "d5eb4a11756a0e0ed88d49d84c7f811d": {
+            "name": "gdbm_file_header",
+            "type": "eff3ae99d2a9a2879984a85ee90f9b4b"
+        },
+        "43221f9baab6ae08a589c33a3a524758": {
+            "name": "header",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5eb4a11756a0e0ed88d49d84c7f811d"
+            },
+            "direction": "both",
+            "type": "*d5eb4a11756a0e0ed88d49d84c7f811d",
+            "indirections": 1
+        },
+        "a5ef65c6bbf1e800e937c6a74a75c766": {
+            "name": "dir",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "1327c0e13c72ea7c05968d037cc91000"
+            },
+            "direction": "both",
+            "type": "*1327c0e13c72ea7c05968d037cc91000",
+            "indirections": 1
+        },
+        "2e1ff4628039c50c7b030cd5941676a6": {
+            "class": "Array",
+            "name": "bucket_avail",
+            "size": 0,
+            "count": 0,
+            "type": "646834d7e6b33e5182e55c7828b9fe56"
+        },
+        "d971dfa7213e64bea9af723ef0f7f5d1": {
+            "class": "Array",
+            "name": "key_start",
+            "size": 0,
+            "count": 0,
+            "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+        },
+        "9b2706933e1cdeaaa28afcfaef6d7fb7": {
+            "name": "unknown",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "hash_value",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "key_start",
+                    "type": "d971dfa7213e64bea9af723ef0f7f5d1",
+                    "direction": "export"
+                },
+                {
+                    "name": "data_pointer",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                },
+                {
+                    "name": "key_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "data_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                }
+            ]
+        },
+        "bed59eefbabe18e530b27b204b946137": {
+            "name": "bucket_element",
+            "type": "9b2706933e1cdeaaa28afcfaef6d7fb7"
+        },
+        "e9a41ffe565c7679524f26afdcee8067": {
+            "class": "Array",
+            "name": "h_table",
+            "size": 0,
+            "count": 0,
+            "type": "bed59eefbabe18e530b27b204b946137"
+        },
+        "3c7e3b5881a2122d9d40c79701245ce8": {
+            "name": "unknown",
+            "size": 136,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "av_count",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_avail",
+                    "type": "2e1ff4628039c50c7b030cd5941676a6",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_bits",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "count",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "h_table",
+                    "type": "e9a41ffe565c7679524f26afdcee8067",
+                    "direction": "export"
+                }
+            ]
+        },
+        "0b3a8bd49a35f560f3ea58476be14486": {
+            "name": "hash_bucket",
+            "type": "3c7e3b5881a2122d9d40c79701245ce8"
+        },
+        "fce5ae2356b9399fe767bc93dc5fbf97": {
+            "name": "ca_bucket",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0b3a8bd49a35f560f3ea58476be14486"
+            },
+            "direction": "both",
+            "type": "*0b3a8bd49a35f560f3ea58476be14486",
+            "indirections": 1
+        },
+        "48720ee8809db05f10284ea87984eac6": {
+            "name": "dptr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "aa8d3b8804d5977cef2687bd82377731": {
+            "name": "unknown",
+            "size": 40,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "hash_val",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "data_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "key_size",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "dptr",
+                    "type": "48720ee8809db05f10284ea87984eac6",
+                    "direction": "export"
+                },
+                {
+                    "name": "dsize",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "elem_loc",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                }
+            ]
+        },
+        "a09f9643f1a06f9c0cefc81431e3e184": {
+            "name": "data_cache_elem",
+            "type": "aa8d3b8804d5977cef2687bd82377731"
+        },
+        "e27ea098b0733d24666b805f6f0af209": {
+            "name": "unknown",
+            "size": 64,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "ca_bucket",
+                    "type": "fce5ae2356b9399fe767bc93dc5fbf97",
+                    "direction": "export"
+                },
+                {
+                    "name": "ca_adr",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                },
+                {
+                    "name": "ca_changed",
+                    "type": "ee8eaa81ccacc2d49d87afa5ca1148a8",
+                    "direction": "export"
+                },
+                {
+                    "name": "ca_data",
+                    "type": "a09f9643f1a06f9c0cefc81431e3e184",
+                    "direction": "export"
+                }
+            ]
+        },
+        "66d6c0eb531893a01f92b1374a56d513": {
+            "name": "cache_elem",
+            "type": "e27ea098b0733d24666b805f6f0af209"
+        },
+        "250b8d96ba11bb1a09f06ecb5f9d6f28": {
+            "name": "bucket_cache",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "66d6c0eb531893a01f92b1374a56d513"
+            },
+            "direction": "both",
+            "type": "*66d6c0eb531893a01f92b1374a56d513",
+            "indirections": 1
+        },
+        "ea2ce858a96eda53c28e0e7e14826e24": {
+            "name": "bucket",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0b3a8bd49a35f560f3ea58476be14486"
+            },
+            "direction": "both",
+            "type": "*0b3a8bd49a35f560f3ea58476be14486",
+            "indirections": 1
+        },
+        "6d0273a7222deb1c3e2d2cdaa94218ea": {
+            "name": "cache_entry",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "66d6c0eb531893a01f92b1374a56d513"
+            },
+            "direction": "both",
+            "type": "*66d6c0eb531893a01f92b1374a56d513",
+            "indirections": 1
+        },
+        "1263c5d5d74da86025198080bb690be7": {
+            "name": "mapped_region",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "390b0eef09d53f551c9b8d244ebd5d9f": {
+            "name": "gdbm_file_info",
+            "size": 168,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "472b0296f4597f559cd572b5c4813064",
+                    "direction": "export"
+                },
+                {
+                    "name": "read_write",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "fast_write",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "central_free",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "coalesce_blocks",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "file_locking",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "memory_mapping",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "cloexec",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "need_recovery",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "last_error",
+                    "type": "c360c6b714ee54120fa0391a9dd054bc",
+                    "direction": "export"
+                },
+                {
+                    "name": "last_syserror",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "last_errstr",
+                    "type": "a02d0eb25cb9879a9f6d02ff71cf11b2",
+                    "direction": "export"
+                },
+                {
+                    "name": "lock_type",
+                    "type": "45776645156c3519efa5e0b17d24778d",
+                    "direction": "export"
+                },
+                {
+                    "name": "fatal_err",
+                    "type": "d1c1846fae4979f871c4f00bcccf78f6",
+                    "direction": "export"
+                },
+                {
+                    "name": "desc",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "header",
+                    "type": "43221f9baab6ae08a589c33a3a524758",
+                    "direction": "export"
+                },
+                {
+                    "name": "dir",
+                    "type": "a5ef65c6bbf1e800e937c6a74a75c766",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_cache",
+                    "type": "250b8d96ba11bb1a09f06ecb5f9d6f28",
+                    "direction": "export"
+                },
+                {
+                    "name": "cache_size",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "last_read",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket",
+                    "type": "ea2ce858a96eda53c28e0e7e14826e24",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_dir",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "cache_entry",
+                    "type": "6d0273a7222deb1c3e2d2cdaa94218ea",
+                    "direction": "export"
+                },
+                {
+                    "name": "header_changed",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "directory_changed",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_changed",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "second_changed",
+                    "type": "724f0b94c416f03c89c16150cf866e00",
+                    "direction": "export"
+                },
+                {
+                    "name": "mapped_size_max",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "mapped_region",
+                    "type": "1263c5d5d74da86025198080bb690be7",
+                    "direction": "export"
+                },
+                {
+                    "name": "mapped_size",
+                    "type": "2b7927ac6886d6f780cffd9e51ebbc49",
+                    "direction": "export"
+                },
+                {
+                    "name": "mapped_pos",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                },
+                {
+                    "name": "mapped_off",
+                    "type": "1327c0e13c72ea7c05968d037cc91000",
+                    "direction": "export"
+                }
+            ]
+        },
+        "79298ced981a3843af94c27705978c2c": {
+            "name": "GDBM_FILE",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "390b0eef09d53f551c9b8d244ebd5d9f"
+            },
+            "direction": "both",
+            "type": "*390b0eef09d53f551c9b8d244ebd5d9f",
+            "indirections": 1
+        },
+        "467d75bbb0c00226a14ae1ff24dd0d92": {
+            "name": "GDBM_FILE",
+            "type": "79298ced981a3843af94c27705978c2c"
+        },
+        "9083309df87947627148f279753d4bed": {
+            "name": "dbf",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "390b0eef09d53f551c9b8d244ebd5d9f"
+            },
+            "direction": "both",
+            "type": "*390b0eef09d53f551c9b8d244ebd5d9f",
+            "indirections": 1
+        },
+        "87442b7a21bf91a39c20e1cc5a4742c3": {
+            "name": "strcpy",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "ec5b1b59f9dbd690e1fb6e8bf5a95609": {
+            "name": "memcpy",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "b7dfaba03f207c1c683dc144a18ef266": {
+            "name": "__dest",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "37a6259cc0c1dae299a7866489dff0bd": null,
+        "d499b296b32f418cc9fcad5e1f77f0f2": {
+            "name": "unknown",
+            "size": 136,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "av_count",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_avail",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                },
+                {
+                    "name": "bucket_bits",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "count",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "export"
+                },
+                {
+                    "name": "h_table",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            ]
+        },
+        "4c2bb267cd4692be16abe08182ac07ad": {
+            "class": "Array",
+            "name": "importfile",
+            "size": 0,
+            "count": 0,
+            "type": "646834d7e6b33e5182e55c7828b9fe56"
+        },
+        "b62d39de7e450553dd00aef8df76f7b3": {
+            "name": "optval",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "6f85a4f1851509c0dc41a929d34079c2": {
+            "type": "1fd8c01bdca094933f920b41375cfed0"
+        },
+        "613736380b595e894cad7f0df4cc7a79": {
+            "name": "ret_dptr",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5dd634bc48185335c216e755142155b"
+            },
+            "direction": "both",
+            "type": "*d5dd634bc48185335c216e755142155b",
+            "indirections": 1
+        },
+        "3b95af9da8852a7bb052054609dbc2ab": {
+            "name": "_gdbm_read_entry",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "2d44c220af9fe7b30e14544698ac47c8": {
+            "name": "buffer",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "2ab86774d6a2723ba35469e4d3183509": {
+            "name": "val",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        }
+    }
+}

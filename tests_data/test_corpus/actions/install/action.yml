@@ -1,0 +1,43 @@
+name: "Install Smeagle Example Unit Testing Dependencies"
+description: "Install cle, spliced, abi-laboratory, and other deps."
+inputs:
+  os:
+    description: expected operating system (currently only support ubuntu and fedora)
+    required: true
+    default: ubuntu
+  bin:
+    description: bin to put to add abi laboratory to path
+    required: false
+    default: /usr/bin
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install Ubuntu Dependencies
+      if: ${{ inputs.os == 'ubuntu' }}
+      env:
+        SCRIPTS_DIR: ${{ github.action_path }}/scripts
+        INSTALL_BIN: ${{ inputs.bin }}
+      run: |
+        echo $PWD
+        ls ${SCRIPTS_DIR}
+        ${SCRIPTS_DIR}/install-ubuntu-deps.sh
+      shell: bash
+
+    - name: Install Ubuntu Dependencies
+      if: ${{ inputs.os == 'fedora' }}
+      env:
+        SCRIPTS_DIR: ${{ github.action_path }}/scripts
+        INSTALL_BIN: ${{ inputs.bin }}
+      run: |
+        echo $PWD
+        ls ${SCRIPTS_DIR}
+        ${SCRIPTS_DIR}/install-fedora-deps.sh
+      shell: bash
+
+    - name: Install Unspecified Dependencies
+      if: ${{ inputs.os != 'ubuntu' }}
+      run: |
+        echo "We currently only support the ubuntu os"
+        exit 1;
+      shell: bash

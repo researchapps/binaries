@@ -1,0 +1,187 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-with-structure/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooiP12StructyChildP13StructyParent",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "one",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "two",
+                        "type": "c10704147b11f5438e9b59c49f899af7",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "three",
+                        "type": "732a810858f8b2ebc66fa5f59d0e10ae",
+                        "location": "%rdx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "e5386f8ca0584657862a4f60f41e5aa4": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "three"
+        },
+        "7f6baee878b19a6c8827dc206970154e": {
+            "name": "StructyNested",
+            "size": 1,
+            "class": "Struct"
+        },
+        "666dfb9cedde0f3735fcabc2e42c14c1": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7f6baee878b19a6c8827dc206970154e"
+            },
+            "name": "useless"
+        },
+        "8377bb8d08111cd71c05f6f6707bdd62": {
+            "name": "StructyChild",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "one",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "two",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 8
+                },
+                {
+                    "name": "three",
+                    "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                    "offset": 16
+                },
+                {
+                    "name": "useless",
+                    "type": "666dfb9cedde0f3735fcabc2e42c14c1",
+                    "offset": 24
+                }
+            ]
+        },
+        "c10704147b11f5438e9b59c49f899af7": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "8377bb8d08111cd71c05f6f6707bdd62"
+            },
+            "name": "two"
+        },
+        "282d2aee37ab0c80d0d100f1b2ecaa51": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "8377bb8d08111cd71c05f6f6707bdd62"
+            },
+            "name": "child"
+        },
+        "20ef28a223bc4bb32b11358764322945": {
+            "type": "bool",
+            "size": 1,
+            "class": "Integer"
+        },
+        "a2d19db56872ab32ed3e8d7259e791c5": {
+            "name": "StructyParent",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "child",
+                    "type": "282d2aee37ab0c80d0d100f1b2ecaa51",
+                    "offset": 0
+                },
+                {
+                    "name": "wonka",
+                    "type": "20ef28a223bc4bb32b11358764322945",
+                    "offset": 8
+                }
+            ]
+        },
+        "732a810858f8b2ebc66fa5f59d0e10ae": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "a2d19db56872ab32ed3e8d7259e791c5"
+            },
+            "name": "three"
+        }
+    }
+}

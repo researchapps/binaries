@@ -1,0 +1,605 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/pointer-hell/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_Z11struct_funciP3Foo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "one",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "two",
+                        "type": "edff4d203bbfdbb5b7d5493c534844fc",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3barP10AnotherFoo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": "1f8d0371e346db02e3ed4316592b2b01",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "8df065c5d600f09e608bbc7685d9b109",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3foo10AnotherFoo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": {
+                            "name": "AnotherFoo",
+                            "size": 32,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "one",
+                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "two",
+                                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                    "offset": 8,
+                                    "location": "%xmm0",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "three",
+                                    "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                                    "offset": 16,
+                                    "location": "%rsi",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "f",
+                                    "type": "fe169f943fa0385719a160f664162033",
+                                    "offset": 24,
+                                    "location": "%rdx",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooP3Foo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": "fe169f943fa0385719a160f664162033",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3buxP3Bux",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "d969401829f2a196210e6ea211628c4b",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3bux3Bux",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Bux",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "b",
+                                    "type": "a1e2b74a362e239cc051473a91550132",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3baxP3Bax",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "6b28a8fdc5f2c4c040aa4b09fd154030",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3bax3Bax",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Bax",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "b",
+                                    "type": "751a511c578285bc2a95ede3fe401abd",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3bazP3Baz",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "a1e2b74a362e239cc051473a91550132",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3baz3Baz",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Baz",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "f",
+                                    "type": "fe169f943fa0385719a160f664162033",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3barP3Bar",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "751a511c578285bc2a95ede3fe401abd",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3bar3Bar",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Bar",
+                            "size": 32,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "f",
+                                    "type": {
+                                        "name": "Foo",
+                                        "size": 32,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "one",
+                                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                                "offset": 0,
+                                                "location": "%rdi",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "two",
+                                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                                "offset": 8,
+                                                "location": "%xmm0",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "three",
+                                                "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                                                "offset": 16,
+                                                "location": "%rsi",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "f",
+                                                "type": "1fdeb6adf22ac42bf39a3af9d4ceb939",
+                                                "offset": 24,
+                                                "location": "%rdx",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
+                                    "offset": 0
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3foo3Foo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": {
+                            "name": "Foo",
+                            "size": 32,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "one",
+                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "two",
+                                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                    "offset": 8,
+                                    "location": "%xmm0",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "three",
+                                    "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                                    "offset": 16,
+                                    "location": "%rsi",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "f",
+                                    "type": "1fdeb6adf22ac42bf39a3af9d4ceb939",
+                                    "offset": 24,
+                                    "location": "%rdx",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "e5386f8ca0584657862a4f60f41e5aa4": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "three"
+        },
+        "1fdeb6adf22ac42bf39a3af9d4ceb939": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "name": "f"
+        },
+        "3a154cce93f00f3ad7c1cc4609fc8a8e": {
+            "name": "Foo",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "one",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "two",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 8
+                },
+                {
+                    "name": "three",
+                    "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                    "offset": 16
+                },
+                {
+                    "name": "f",
+                    "type": "1fdeb6adf22ac42bf39a3af9d4ceb939",
+                    "offset": 24
+                }
+            ]
+        },
+        "edff4d203bbfdbb5b7d5493c534844fc": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3a154cce93f00f3ad7c1cc4609fc8a8e"
+            },
+            "name": "two"
+        },
+        "fe169f943fa0385719a160f664162033": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3a154cce93f00f3ad7c1cc4609fc8a8e"
+            },
+            "name": "f"
+        },
+        "8df065c5d600f09e608bbc7685d9b109": {
+            "name": "AnotherFoo",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "one",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "two",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 8
+                },
+                {
+                    "name": "three",
+                    "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                    "offset": 16
+                },
+                {
+                    "name": "f",
+                    "type": "fe169f943fa0385719a160f664162033",
+                    "offset": 24
+                }
+            ]
+        },
+        "1f8d0371e346db02e3ed4316592b2b01": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "8df065c5d600f09e608bbc7685d9b109"
+            },
+            "name": "f"
+        },
+        "47f7f39b578c9522e434b473cf1c299c": {
+            "name": "Baz",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "f",
+                    "type": "fe169f943fa0385719a160f664162033",
+                    "offset": 0
+                }
+            ]
+        },
+        "a1e2b74a362e239cc051473a91550132": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "47f7f39b578c9522e434b473cf1c299c"
+            },
+            "name": "b"
+        },
+        "eb5c45ac86fd7f9d443d941700dd78fb": {
+            "name": "Bux",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "b",
+                    "type": "a1e2b74a362e239cc051473a91550132",
+                    "offset": 0
+                }
+            ]
+        },
+        "d969401829f2a196210e6ea211628c4b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "eb5c45ac86fd7f9d443d941700dd78fb"
+            },
+            "name": "b"
+        },
+        "bdc7fad66e55a382a2bdbc4ad3f712dc": {
+            "name": "Bar",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "f",
+                    "type": "3a154cce93f00f3ad7c1cc4609fc8a8e",
+                    "offset": 0
+                }
+            ]
+        },
+        "751a511c578285bc2a95ede3fe401abd": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "bdc7fad66e55a382a2bdbc4ad3f712dc"
+            },
+            "name": "b"
+        },
+        "1a158c7b64c6a83e77b4f55776408a56": {
+            "name": "Bax",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "b",
+                    "type": "751a511c578285bc2a95ede3fe401abd",
+                    "offset": 0
+                }
+            ]
+        },
+        "6b28a8fdc5f2c4c040aa4b09fd154030": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "1a158c7b64c6a83e77b4f55776408a56"
+            },
+            "name": "b"
+        }
+    }
+}

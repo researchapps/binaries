@@ -1,0 +1,40 @@
+name: "Install Smeagle Example Unit Testing Dependencies"
+description: "Install cle, spliced, abi-laboratory, and other deps."
+inputs:
+  tests_dir:
+    description: Root directory with testing files
+    required: true
+  results_dir:
+    description: Directory for results
+    required: true
+  cache_dir:
+    description: Directory for smeagle and abi laboratory cache
+    required: false
+    default: /cache
+  cxx:
+    description: Cpp compiler (defaults to g++)
+    required: false
+    default: g++
+  compiler:
+    description: Compiler identifier string (e.g., gcc-7.5.0)
+    required: true
+  skip_smeagle:
+    description: Skip running smeagle?
+    required: false
+    default: false
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install Ubuntu Dependencies
+      env:
+        SCRIPTS_DIR: ${{ github.action_path }}/scripts
+        SPLICED_SMEAGLE_CACHE_DIR: ${{ inputs.cache_dir }}
+        SPLICED_ABILAB_CACHE_DIR: ${{ inputs.cache_dir }}
+        CXX: ${{ inputs.cxx }}
+        tests_dir: ${{ inputs.tests_dir }}
+        results_dir: ${{ inputs.results_dir }}
+        compiler: ${{ inputs.compiler }}
+        skip_smeagle: ${{ inputs.skip_smeagle }}
+      run: ${SCRIPTS_DIR}/run-spliced-tests.sh
+      shell: bash

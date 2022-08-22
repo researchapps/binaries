@@ -1,0 +1,36 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/global-variables-pointers/lib.so",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "x",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export"
+                },
+                {
+                    "name": "px",
+                    "location": "var",
+                    "type": "84dad58e8aff19b62cf7ac0ad6e0b737",
+                    "direction": "export"
+                }
+            ]
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "84dad58e8aff19b62cf7ac0ad6e0b737": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "px"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/union/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3foo1A",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": "227d2573226946bdb4ccdb4af73ac107",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "60d878d3ef42239c29775902b50e039b": {
+            "class": "Array",
+            "name": "y",
+            "size": 16,
+            "counts": [
+                4
+            ],
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
+        },
+        "227d2573226946bdb4ccdb4af73ac107": {
+            "name": "A",
+            "size": 16,
+            "class": "Union",
+            "fields": [
+                {
+                    "name": "x",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+                },
+                {
+                    "name": "y",
+                    "type": "60d878d3ef42239c29775902b50e039b"
+                }
+            ]
+        }
+    }
+}

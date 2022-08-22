@@ -1,0 +1,104 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/static-member-func/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_ZN11MathLibrary10Arithmetic3AddEdd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm0",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm1",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "direction": "export",
+                    "location": "%xmm0"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_ZN11MathLibrary10Arithmetic8SubtractEdd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm0",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm1",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "direction": "export",
+                    "location": "%xmm0"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_ZN11MathLibrary10Arithmetic8MultiplyEdd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm0",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm1",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "direction": "export",
+                    "location": "%xmm0"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_ZN11MathLibrary10Arithmetic6DivideEdd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm0",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm1",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "direction": "export",
+                    "location": "%xmm0"
+                }
+            }
+        }
+    ],
+    "types": {
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        }
+    }
+}

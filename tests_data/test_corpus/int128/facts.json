@@ -1,0 +1,311 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/int128/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_Z9earlycallnlllll",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": {
+                            "size": 16,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "__int128_1",
+                                    "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "__int128_2",
+                                    "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                    "offset": 8,
+                                    "location": "%rsi",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rcx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%r8",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%r9",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z7bigcallllllln",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rcx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%r8",
+                        "direction": "import"
+                    },
+                    {
+                        "type": {
+                            "size": 16,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "__int128_1",
+                                    "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                    "offset": 0,
+                                    "location": "framebase+8",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "__int128_2",
+                                    "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                    "offset": 8,
+                                    "location": "framebase+16",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z4func7StructyPS_",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": {
+                            "name": "Structy",
+                            "size": 48,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "a",
+                                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                    "offset": 0,
+                                    "location": "%xmm0",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "b",
+                                    "type": {
+                                        "size": 16,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "__int128_1",
+                                                "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                                "offset": 0,
+                                                "location": "%rdi",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "__int128_2",
+                                                "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                                "offset": 8,
+                                                "location": "%rsi",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
+                                    "offset": 16
+                                },
+                                {
+                                    "name": "c",
+                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                    "offset": 32,
+                                    "location": "%rdx",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    },
+                    {
+                        "name": "b",
+                        "type": "c6d678e90361b6d4f202f1b5553fdfd0",
+                        "location": "%rcx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "284ad50c788e2ef7d0e6de0c793ba964": {
+            "class": "Integer",
+            "type": "long",
+            "size": 8
+        },
+        "88c361659df62308506e347c41d6018f": {
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "__int128_1",
+                    "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                    "offset": 0
+                },
+                {
+                    "name": "__int128_2",
+                    "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                    "offset": 8
+                }
+            ]
+        },
+        "abe75cc58bf0465f278804f771c3367e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "46ddbed7b926592407440fbe82b54846": {
+            "name": "Structy",
+            "size": 48,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "a",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 0
+                },
+                {
+                    "name": "b",
+                    "type": "88c361659df62308506e347c41d6018f",
+                    "offset": 16
+                },
+                {
+                    "name": "c",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 32
+                }
+            ]
+        },
+        "c6d678e90361b6d4f202f1b5553fdfd0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "46ddbed7b926592407440fbe82b54846"
+            },
+            "name": "b"
+        }
+    }
+}

@@ -1,0 +1,3100 @@
+{
+    "library": "/tmp/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.4.0/zlib-1.2.12-3xrlqm2oj6djouizyxcwt7d36zifpibd/lib/libz.so.1.2.12",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "__environ",
+                    "location": "var",
+                    "type": "c6d96afff7b81ccefa92b56d612a2416",
+                    "direction": "import"
+                },
+                {
+                    "name": "optarg",
+                    "location": "var",
+                    "type": "d836ebd67d980ed32c478bb897b8e981",
+                    "direction": "import"
+                },
+                {
+                    "name": "optind",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "opterr",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "optopt",
+                    "location": "var",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "direction": "import"
+                },
+                {
+                    "name": "z_errmsg",
+                    "location": "var",
+                    "type": "b1d4b0625bfdb87216d1ae24a0818d92",
+                    "direction": "import"
+                },
+                {
+                    "name": "_length_code",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "_dist_code",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "deflate_copyright",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                },
+                {
+                    "name": "inflate_copyright",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                },
+                {
+                    "name": "stdin",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "stdout",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "stderr",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "sys_nerr",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                },
+                {
+                    "name": "sys_errlist",
+                    "location": "var",
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "adler32_combine64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "adler1",
+                        "type": "437f5525fce12d936a438a2aa04e2fa0",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "adler2",
+                        "type": "437f5525fce12d936a438a2aa04e2fa0",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len2",
+                        "type": "0a35c0a8deff19481040256eae624cec",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "437f5525fce12d936a438a2aa04e2fa0",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "adler32_combine",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "adler1",
+                        "type": "437f5525fce12d936a438a2aa04e2fa0",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "adler2",
+                        "type": "437f5525fce12d936a438a2aa04e2fa0",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len2",
+                        "type": "1327c0e13c72ea7c05968d037cc91000",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "437f5525fce12d936a438a2aa04e2fa0",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "adler32",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "adler",
+                        "type": "437f5525fce12d936a438a2aa04e2fa0",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "6a187ba2f3bb1753c7bc06026bfac060",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "14a76332259bc5499793bd1b32e22266",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "437f5525fce12d936a438a2aa04e2fa0",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "adler32_z",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "adler",
+                        "type": "437f5525fce12d936a438a2aa04e2fa0",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "6a187ba2f3bb1753c7bc06026bfac060",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "0f46598b7e64fc2f06ddae8599ccc43c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "437f5525fce12d936a438a2aa04e2fa0",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32_combine_op",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "crc1",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "crc2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "op",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32_combine_gen",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "len2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32_combine_gen64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "len2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32_combine",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "crc1",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "crc2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32_combine64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "crc1",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "crc2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len2",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "crc",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "crc32_z",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "crc",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "308ad8129cac3a0bb414c01987309d1b",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "get_crc_table",
+                "direction": "export",
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateCopy",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "source",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateEnd",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflate",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flush",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateBound",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "sourceLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateTune",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "good_length",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "max_lazy",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "nice_length",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "max_chain",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateParams",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "level",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "strategy",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflatePrime",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "value",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflatePending",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "pending",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateSetHeader",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "head",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateReset",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateResetKeep",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateGetDictionary",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictionary",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictLength",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateSetDictionary",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictionary",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictLength",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateInit2_",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "level",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "method",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "windowBits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "memLevel",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "strategy",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "version",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stream_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateInit_",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "level",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "version",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stream_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "adler32",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "crc32",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateBackEnd",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateBack",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "in",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "in_desc",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "out",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "out_desc",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateBackInit_",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "windowBits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "window",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "version",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stream_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateCodesUsed",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateMark",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "1237e534ed634c27544b5cd2e63778d0",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateValidate",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "check",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateUndermine",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "subvert",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateCopy",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "source",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateSyncPoint",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateSync",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateGetHeader",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "head",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateSetDictionary",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictionary",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictLength",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateGetDictionary",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictionary",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "dictLength",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateEnd",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflate",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flush",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflatePrime",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "bits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "value",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateInit_",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "version",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stream_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateInit2_",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "windowBits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "version",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stream_size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateReset2",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "windowBits",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateReset",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateResetKeep",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "strm",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "adler32",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "crc32",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "zError",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "err",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "37a6259cc0c1dae299a7866489dff0bd",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "zlibCompileFlags",
+                "direction": "export",
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "zlibVersion",
+                "direction": "export",
+                "return": {
+                    "type": "37a6259cc0c1dae299a7866489dff0bd",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "compressBound",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "sourceLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "compress",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "destLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "source",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "sourceLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "compress2",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "destLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "source",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "sourceLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "level",
+                        "type": "832037bcbd004730c7738b05d956e54e",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "deflateInit_",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "deflate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "deflateEnd",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "uncompress",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "destLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "source",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "sourceLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "uncompress2",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "destLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "source",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "sourceLen",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "inflateInit_",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "inflate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateEnd",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gzclose",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzclose_w",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gzclose_r",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gzclearerr",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ]
+            }
+        },
+        {
+            "function": {
+                "name": "gzerror",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "errnum",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzeof",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzoffset",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzoffset64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gztell",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gztell64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzseek",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "whence",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzseek64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "whence",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzrewind",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzbuffer",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "8e0ae706425b6a936a618966f249899f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzdopen",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "fd",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "mode",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "600eebdec58849fbdfd08d992baab40f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzopen64",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "path",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "mode",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "398358502050dfee1c8fe0f6dcbb311f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzopen",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "path",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "mode",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9288ff2c8654009337de2b5d8fd89d54",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__path",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__oflag",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "snprintf",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__s",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "1237e534ed634c27544b5cd2e63778d0",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__fmt",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "lseek64",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__snprintf_chk",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "snprintf",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gzclose_r",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "264a496a98945678f3e94dc5a8f64d66",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzdirect",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "264a496a98945678f3e94dc5a8f64d66",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzgets",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "264a496a98945678f3e94dc5a8f64d66",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzungetc",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "c",
+                        "type": "264a496a98945678f3e94dc5a8f64d66",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "264a496a98945678f3e94dc5a8f64d66",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzgetc_",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "264a496a98945678f3e94dc5a8f64d66",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzgetc",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "264a496a98945678f3e94dc5a8f64d66",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzfread",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "nitems",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzread",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "264a496a98945678f3e94dc5a8f64d66",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "1237e534ed634c27544b5cd2e63778d0",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "read",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__fd",
+                        "type": "264a496a98945678f3e94dc5a8f64d66",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__nbytes",
+                        "type": "1237e534ed634c27544b5cd2e63778d0",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateEnd",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memchr",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateInit2_",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateReset",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "read",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__errno_location",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strerror",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gzclose_w",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzsetparams",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "level",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "strategy",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzflush",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "flush",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzprintf",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "format",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzvprintf",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "format",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "va",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzputs",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "s",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzputc",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "c",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzfwrite",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "size",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "nitems",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "gzwrite",
+                "direction": "export",
+                "parameters": [
+                    {
+                        "name": "file",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buf",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "len",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "1237e534ed634c27544b5cd2e63778d0",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "37a6259cc0c1dae299a7866489dff0bd",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "1237e534ed634c27544b5cd2e63778d0",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "3136b53c7788b73670691bd7c934571c",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "1237e534ed634c27544b5cd2e63778d0",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3136b53c7788b73670691bd7c934571c",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "deflateEnd",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "deflateParams",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__vsnprintf_chk",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "write",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__errno_location",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strerror",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "deflateReset",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "deflate",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "deflateInit2_",
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "direction": "import"
+            }
+        },
+        {
+            "callsite": {
+                "name": "adler32_combine_",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "adler32_z",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "name": "short unsigned int",
+                "params": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        }
+    ],
+    "types": {
+        "ee8eaa81ccacc2d49d87afa5ca1148a8": {
+            "type": "char",
+            "size": 1,
+            "class": "Integral",
+            "direction": "import"
+        },
+        "d5dd634bc48185335c216e755142155b": {
+            "name": "unknown",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 2
+        },
+        "c6d96afff7b81ccefa92b56d612a2416": {
+            "name": "__environ",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d5dd634bc48185335c216e755142155b"
+            },
+            "direction": "both",
+            "type": "*d5dd634bc48185335c216e755142155b",
+            "indirections": 1
+        },
+        "d836ebd67d980ed32c478bb897b8e981": {
+            "name": "optarg",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee8eaa81ccacc2d49d87afa5ca1148a8"
+            },
+            "direction": "both",
+            "type": "*ee8eaa81ccacc2d49d87afa5ca1148a8",
+            "indirections": 1
+        },
+        "1fd8c01bdca094933f920b41375cfed0": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "b1d4b0625bfdb87216d1ae24a0818d92": {
+            "type": "unknown",
+            "size": 0,
+            "class": "Constant",
+            "direction": "import"
+        },
+        "6d168f46b7d9e8b96a1ff9b171e0ad48": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "437f5525fce12d936a438a2aa04e2fa0": {
+            "name": "uLong",
+            "type": "6d168f46b7d9e8b96a1ff9b171e0ad48"
+        },
+        "832037bcbd004730c7738b05d956e54e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "480b5658d062c1ea78c88cc704cc077e": {
+            "name": "__off64_t",
+            "type": "832037bcbd004730c7738b05d956e54e"
+        },
+        "0a35c0a8deff19481040256eae624cec": {
+            "name": "off64_t",
+            "type": "480b5658d062c1ea78c88cc704cc077e"
+        },
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
+        },
+        "53f3605b08deb1382db3e44cb033ec43": {
+            "name": "__off_t",
+            "type": "832037bcbd004730c7738b05d956e54e"
+        },
+        "1327c0e13c72ea7c05968d037cc91000": {
+            "name": "off_t",
+            "type": "53f3605b08deb1382db3e44cb033ec43"
+        },
+        "6a187ba2f3bb1753c7bc06026bfac060": {
+            "name": "buf",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "b1d4b0625bfdb87216d1ae24a0818d92"
+            },
+            "direction": "both",
+            "type": "*b1d4b0625bfdb87216d1ae24a0818d92",
+            "indirections": 1
+        },
+        "724f0b94c416f03c89c16150cf866e00": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "14a76332259bc5499793bd1b32e22266": {
+            "name": "uInt",
+            "type": "724f0b94c416f03c89c16150cf866e00"
+        },
+        "2b7927ac6886d6f780cffd9e51ebbc49": {
+            "name": "size_t",
+            "type": "6d168f46b7d9e8b96a1ff9b171e0ad48"
+        },
+        "0f46598b7e64fc2f06ddae8599ccc43c": {
+            "name": "z_size_t",
+            "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+        },
+        "308ad8129cac3a0bb414c01987309d1b": {
+            "type": "long double",
+            "size": 16,
+            "class": "Float",
+            "direction": "import"
+        },
+        "1237e534ed634c27544b5cd2e63778d0": {
+            "type": "__int128 unsigned",
+            "size": 16,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "37a6259cc0c1dae299a7866489dff0bd": null,
+        "8e0ae706425b6a936a618966f249899f": {
+            "name": "file",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "600eebdec58849fbdfd08d992baab40f": {
+            "name": "gzdopen",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "398358502050dfee1c8fe0f6dcbb311f": {
+            "name": "gzopen64",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "9288ff2c8654009337de2b5d8fd89d54": {
+            "name": "gzopen",
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3136b53c7788b73670691bd7c934571c"
+            },
+            "direction": "both",
+            "type": "*3136b53c7788b73670691bd7c934571c",
+            "indirections": 1
+        },
+        "e7efc874c18fbe691d0385ff3fc9f954": {
+            "type": "unsigned char",
+            "size": 1,
+            "class": "Integral",
+            "direction": "import"
+        },
+        "264a496a98945678f3e94dc5a8f64d66": {
+            "name": "Byte",
+            "type": "e7efc874c18fbe691d0385ff3fc9f954"
+        }
+    }
+}

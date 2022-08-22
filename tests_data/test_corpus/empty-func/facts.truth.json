@@ -1,0 +1,69 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/empty-func/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3foov",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        }
+    }
+}

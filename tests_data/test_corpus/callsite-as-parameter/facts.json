@@ -1,0 +1,96 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/callsite-as-parameter/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "close",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "getpid",
+                "class": "Function",
+                "return": {
+                    "type": "fd87dffe1cb2490a2ab0e35b1d96863c",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "fd87dffe1cb2490a2ab0e35b1d96863c": {
+            "name": "__pid_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        }
+    }
+}

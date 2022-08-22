@@ -1,0 +1,58 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/complex-double/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "_Z3fooCeS_",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "c1",
+                        "type": "d1795a3dd8e481ee71d80669f17bd004",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "c2",
+                        "type": "d1795a3dd8e481ee71d80669f17bd004",
+                        "location": "framebase+40",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "test_long_double__Complex",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "d1795a3dd8e481ee71d80669f17bd004",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "d1795a3dd8e481ee71d80669f17bd004": {
+            "type": "complex long double",
+            "size": 32,
+            "class": "ComplexFloat"
+        }
+    }
+}

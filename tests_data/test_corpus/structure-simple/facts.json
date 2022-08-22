@@ -1,0 +1,129 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-simple/lib.so",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "bar",
+                    "location": "var",
+                    "type": {
+                        "name": "atype",
+                        "size": 24,
+                        "class": "Struct",
+                        "fields": [
+                            {
+                                "name": "a",
+                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                "offset": 0,
+                                "direction": "export"
+                            },
+                            {
+                                "name": "b",
+                                "type": "abe75cc58bf0465f278804f771c3367e",
+                                "offset": 8,
+                                "direction": "export"
+                            },
+                            {
+                                "name": "c",
+                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                "offset": 16,
+                                "direction": "export"
+                            },
+                            {
+                                "name": "d",
+                                "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                                "offset": 20,
+                                "direction": "export"
+                            }
+                        ]
+                    },
+                    "direction": "export"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "abe75cc58bf0465f278804f771c3367e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "f1f65f310f38a24fdb8fa5978e27170c": {
+            "name": "atype",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "a",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "b",
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "offset": 8
+                },
+                {
+                    "name": "c",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 16
+                },
+                {
+                    "name": "d",
+                    "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                    "offset": 20
+                }
+            ]
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        }
+    }
+}

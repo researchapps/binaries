@@ -1,0 +1,141 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/multidimensional-array/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooiP7Structy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "one",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "array",
+                        "type": "429b78b625bd1b4520290bf67ae42aa2",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "ba26a1b06c24691988f94f706e51b94d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "argv"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "2e197574c391d1b4115af009e86a70e0": {
+            "class": "Array",
+            "name": "two_d",
+            "size": 100,
+            "counts": [
+                5,
+                5
+            ],
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
+        },
+        "ccf4dbe1061e0f4c6c42736ce0a92b0c": {
+            "class": "Array",
+            "name": "three_d",
+            "size": 24000,
+            "counts": [
+                10,
+                20,
+                30
+            ],
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
+        },
+        "a5b8f03151c2552b5bc5a6e4f11bc457": {
+            "name": "Structy",
+            "size": 24100,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "two_d",
+                    "type": "2e197574c391d1b4115af009e86a70e0",
+                    "offset": 0
+                },
+                {
+                    "name": "three_d",
+                    "type": "ccf4dbe1061e0f4c6c42736ce0a92b0c",
+                    "offset": 100
+                }
+            ]
+        },
+        "429b78b625bd1b4520290bf67ae42aa2": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "a5b8f03151c2552b5bc5a6e4f11bc457"
+            },
+            "name": "array"
+        }
+    }
+}

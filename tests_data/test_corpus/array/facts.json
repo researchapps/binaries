@@ -1,0 +1,137 @@
+{
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/array/lib.so",
+    "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3fooi3Foo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "y",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "f",
+                        "type": {
+                            "name": "Foo",
+                            "size": 32,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "x",
+                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                    "offset": 0,
+                                    "location": "%rsi",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "c",
+                                    "type": "8eed461bfc3501fadc3cdbc18372b319",
+                                    "offset": 4,
+                                    "location": "%rdx",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "y",
+                                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                    "offset": 16,
+                                    "location": "%xmm0",
+                                    "direction": "export"
+                                },
+                                {
+                                    "name": "z",
+                                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                    "offset": 24,
+                                    "location": "%xmm1",
+                                    "direction": "export"
+                                }
+                            ]
+                        },
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "8eed461bfc3501fadc3cdbc18372b319": {
+            "class": "Array",
+            "name": "c",
+            "size": 8,
+            "counts": [
+                8
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "a55a12a304bd32496749c5178e5e4e01": {
+            "name": "Foo",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "x",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "c",
+                    "type": "8eed461bfc3501fadc3cdbc18372b319",
+                    "offset": 4
+                },
+                {
+                    "name": "y",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 16
+                },
+                {
+                    "name": "z",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 24
+                }
+            ]
+        }
+    }
+}
